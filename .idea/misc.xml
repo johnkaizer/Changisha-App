@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/drawable/circle.xml" value="0.2045" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/drawable/iconback.xml" value="0.2045" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/drawable/main_layout.xml" value="0.2045" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/drawable/search_.xml" value="0.2045" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/drawable/searchbackground.xml" value="0.2045" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/popula_donation_row_item.xml" value="0.2" />
       </map>
     </option>
   </component>

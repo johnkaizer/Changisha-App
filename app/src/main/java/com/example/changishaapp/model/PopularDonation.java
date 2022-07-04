@@ -6,13 +6,17 @@ public class PopularDonation {
     String Description;
     Integer ImageUrl;
     String Progress;
+    String Category;
+    float Account;
 
-    public PopularDonation(String title, String amount, String description, Integer imageUrl, String progress) {
+    public PopularDonation(String title, String amount, String description, Integer imageUrl, String progress, String category, float account) {
         Title = title;
         Amount = amount;
         Description = description;
         ImageUrl = imageUrl;
         Progress = progress;
+        Category = category;
+        Account = account;
     }
 
     public String getTitle() {
@@ -53,5 +57,21 @@ public class PopularDonation {
 
     public void setProgress(String progress) {
         Progress = progress;
+    }
+
+    public String getCategory() {
+        return Category;
+    }
+
+    public void setCategory(String category) {
+        Category = category;
+    }
+
+    public float getAccount() {
+        return Account;
+    }
+
+    public void setAccount(Integer account) {
+        Account = account;
     }
 }

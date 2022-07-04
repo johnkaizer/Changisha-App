@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         List<PopularDonation> popularDonationList= new ArrayList<>();
-        popularDonationList.add(new PopularDonation("XYZ Reserve National Park","KSh 7000","Buy torch",R.drawable.donate,"50%"));
-        popularDonationList.add(new PopularDonation("XYZ National Park","KSh 7000","Buy torch",R.drawable.donate,"70%"));
-        popularDonationList.add(new PopularDonation("XYZ Reserve National Park Nairobi","KSh 7000","Buy torch",R.drawable.donate,"90%"));
-        popularDonationList.add(new PopularDonation("XYZ Reserve National Park National Park","KSh 7000","Buy torch",R.drawable.donate,"80%"));
+        popularDonationList.add(new PopularDonation("XYZ Reserve National Park","KSh 7000","Buy torch",R.drawable.donate,"50%","Health",1234567892));
+        popularDonationList.add(new PopularDonation("XYZ National Park","KSh 7000","Buy torch",R.drawable.doo,"70%","Health",1234567892));
+        popularDonationList.add(new PopularDonation("XYZ Reserve National Park Nairobi","KSh 7000","Buy torch",R.drawable.fund,"90%","Health",1234567892));
+        popularDonationList.add(new PopularDonation("XYZ Reserve National Park National Park","KSh 7000","Buy torch",R.drawable.donate,"80%","Health",1234567892));
         setPopularDonationsAdapter(popularDonationList);
     }
     private void setPopularDonationsAdapter(List<PopularDonation>popularDonationList){

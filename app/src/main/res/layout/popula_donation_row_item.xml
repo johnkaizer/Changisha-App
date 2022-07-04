@@ -9,7 +9,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
     android:elevation="15dp"
-    app:cardCornerRadius="10dp">
+    app:cardCornerRadius="8dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
@@ -21,9 +21,10 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:adjustViewBounds="true"
+            android:layout_marginTop="3dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/donate" />
+            app:srcCompat="@drawable/doo" />
 
         <TextView
             android:id="@+id/donation_title"

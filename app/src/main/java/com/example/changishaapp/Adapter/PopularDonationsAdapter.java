@@ -1,5 +1,6 @@
 package com.example.changishaapp.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.text.Layout;
@@ -21,6 +22,7 @@ import java.util.List;
 public class PopularDonationsAdapter extends RecyclerView.Adapter<PopularDonationsAdapter.PopularDonationViewHolder>{
     Context context;
     List<PopularDonation> popularDonationList;
+    PopularDonation popularDonation;
 
     public PopularDonationsAdapter(Context context, List<PopularDonation> popularDonationList) {
         this.context = context;
@@ -31,29 +33,32 @@ public class PopularDonationsAdapter extends RecyclerView.Adapter<PopularDonatio
     @Override
     public PopularDonationViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.popula_donation_row_item,parent,false);
-        return new PopularDonationViewHolder(view);
+        PopularDonationViewHolder holder =new PopularDonationViewHolder(view);
+
+        return holder;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull PopularDonationViewHolder holder, int position) {
-        final PopularDonation data_position = popularDonationList.get(position);
-        holder.donationImage.setImageResource(popularDonationList.get(position).getImageUrl());
-        holder.title.setText(popularDonationList.get(position).getTitle());
-        holder.progress.setText(popularDonationList.get(position).getProgress());
+    public void onBindViewHolder(@NonNull PopularDonationViewHolder holder, @SuppressLint("RecyclerView") final int position) {
+         popularDonation  = popularDonationList.get(position);
+        holder.donationImage.setImageResource(popularDonation.getImageUrl());
+        holder.title.setText(popularDonation.getTitle());
+        holder.progress.setText(popularDonation.getProgress());
 
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), DetailsActivity.class);
-                intent.putExtra("donationImage",data_position.getImageUrl());
-                intent.putExtra("title",data_position.getTitle());
-                intent.putExtra("progress",data_position.getProgress());
-                intent.putExtra("amount",data_position.getAmount());
-                intent.putExtra("description",data_position.getDescription());
-                intent.putExtra("account",data_position.getAccount());
-                intent.putExtra("category",data_position.getCategory());
-                view.getContext().startActivity(intent);
+                Intent intent = new Intent(context, DetailsActivity.class);
+                intent.putExtra("donationImage",popularDonationList.get(position).getImageUrl());
+                intent.putExtra("title",popularDonationList.get(position).getTitle());
+                intent.putExtra("progress",popularDonationList.get(position).getProgress());
+                intent.putExtra("amount",popularDonationList.get(position).getAmount());
+                intent.putExtra("description",popularDonationList.get(position).getDescription());
+                intent.putExtra("account",popularDonationList.get(position).getAccount());
+                intent.putExtra("category",popularDonationList.get(position).getCategory());
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
 
             }
         });
@@ -76,4 +81,5 @@ public class PopularDonationsAdapter extends RecyclerView.Adapter<PopularDonatio
             progress = itemView.findViewById(R.id.progress);
         }
     }
+
 }

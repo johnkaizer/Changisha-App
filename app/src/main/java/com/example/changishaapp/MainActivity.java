@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         popularDonationList.add(new PopularDonation("XYZ Reserve National Park National Park","KSh 7000","Buy torch",R.drawable.donatee,"80%","Health",1234567892));
         popularDonationList.add(new PopularDonation("XYZ Reserve National Park National Park","KSh 7000","Buy torch",R.drawable.charit,"80%","Health",1234567892));
         popularDonationList.add(new PopularDonation("Kibera Home for Kids","KSh 7000","Buy torch",R.drawable.event,"80%","Health",1234567892));
-        popularDonationList.add(new PopularDonation("KNH Hospital","KSh 7000","Buy torch",R.drawable.blood,"80%","Health",1234567892));
+        popularDonationList.add(new PopularDonation("KNH Hospital","KSh 1,000,000","Buy new masks for the nurses and oxygen tanks for patients.",R.drawable.blood,"30%","Health",1234567892));
 
         setPopularDonationsAdapter(popularDonationList);
     }
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         popularRecycler = findViewById(R.id.popular_donations);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false);
         popularRecycler.setLayoutManager(layoutManager);
-        popularDonationsAdapter = new PopularDonationsAdapter(this,popularDonationList);
+        popularDonationsAdapter = new PopularDonationsAdapter(getApplicationContext(), popularDonationList);
         popularRecycler.setAdapter(popularDonationsAdapter);
     }
 }

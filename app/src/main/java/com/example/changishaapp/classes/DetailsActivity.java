@@ -1,4 +1,4 @@
-package com.example.changishaapp;
+package com.example.changishaapp.classes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.changishaapp.R;
 
 public class DetailsActivity extends AppCompatActivity {
 
@@ -41,7 +43,7 @@ public class DetailsActivity extends AppCompatActivity {
         back_txt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(DetailsActivity.this,MainActivity.class);
+                Intent intent= new Intent(DetailsActivity.this, MainActivity.class);
                 startActivity(intent);
                 onBackPressed();
             }

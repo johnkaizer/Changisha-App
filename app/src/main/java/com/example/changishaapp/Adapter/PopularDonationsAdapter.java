@@ -3,7 +3,6 @@ package com.example.changishaapp.Adapter;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.changishaapp.DetailsActivity;
+import com.example.changishaapp.classes.DetailsActivity;
 import com.example.changishaapp.R;
 import com.example.changishaapp.model.PopularDonation;
 

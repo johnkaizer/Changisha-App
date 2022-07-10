@@ -1,14 +1,16 @@
-package com.example.changishaapp;
+package com.example.changishaapp.classes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class NotificationsActivty extends AppCompatActivity {
+import com.example.changishaapp.R;
+
+public class AccountActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notifications_activty);
+        setContentView(R.layout.activity_account);
     }
 }

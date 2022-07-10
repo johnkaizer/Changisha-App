@@ -1,4 +1,4 @@
-package com.example.changishaapp;
+package com.example.changishaapp.classes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.example.changishaapp.R;
+import com.example.changishaapp.classes.MainActivity;
 
 public class Splash extends AppCompatActivity {
 
@@ -27,7 +30,7 @@ public class Splash extends AppCompatActivity {
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(getApplicationContext(),MainActivity.class );
+                Intent i = new Intent(getApplicationContext(), MainActivity.class );
                 startActivity(i);
 
                 finish();

@@ -1,4 +1,4 @@
-package com.example.changishaapp;
+package com.example.changishaapp.classes;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.changishaapp.Adapter.PopularDonationsAdapter;
+import com.example.changishaapp.R;
 import com.example.changishaapp.model.PopularDonation;
 
 import java.util.ArrayList;
@@ -32,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(MainActivity.this,ProfileActivity.class);
+                Intent intent= new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(intent);
             }
         });
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(MainActivity.this,NotificationsActivty.class);
+                Intent intent= new Intent(MainActivity.this, NotificationsActivty.class);
                 startActivity(intent);
             }
         });

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ic_launcher_background"
-    tools:context=".ProfileActivity">
+    tools:context=".classes.ProfileActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -71,7 +71,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/user_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -80,12 +80,14 @@
                 android:background="@drawable/edit_back"
                 android:hint="username"
                 android:paddingLeft="18dp"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="5dp"
                 android:textColor="@color/black"
                 android:textColorHint="#807777"
                 android:textSize="16dp" />
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/pass_txt1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -94,6 +96,8 @@
                 android:background="@drawable/edit_back"
                 android:hint="password"
                 android:paddingLeft="18dp"
+                android:drawableStart="@drawable/pass"
+                android:drawablePadding="5dp"
                 android:textColor="@color/black"
                 android:textColorHint="#807777"
                 android:textSize="16dp" />

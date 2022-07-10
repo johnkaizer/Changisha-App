@@ -2,14 +2,16 @@ package com.example.changishaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailsActivity extends AppCompatActivity {
 
     TextView title,amount,progress,description, account, category;
-    ImageView imageview;
+    ImageView imageview,back_txt,share_txt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +19,7 @@ public class DetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_details);
 
 
-
+        back_txt = findViewById(R.id.back_txt);
         progress= findViewById(R.id.progress_txt);
         description= findViewById(R.id.description_txt);
         account = findViewById(R.id.account_txt);
@@ -36,5 +38,15 @@ public class DetailsActivity extends AppCompatActivity {
         Integer ImageUrl = getIntent().getIntExtra("donationImage",0);
         imageview.setImageResource(ImageUrl);
 
+        back_txt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(DetailsActivity.this,MainActivity.class);
+                startActivity(intent);
+                onBackPressed();
+            }
+        });
+
     }
+
 }

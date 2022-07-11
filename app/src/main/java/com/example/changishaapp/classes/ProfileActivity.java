@@ -36,7 +36,7 @@ public class ProfileActivity extends AppCompatActivity {
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
                 if (TextUtils.isEmpty(user) || TextUtils.isEmpty(pass))
-                    Toast.makeText(ProfileActivity.this,"All field are required",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ProfileActivity.this,"All fields are required",Toast.LENGTH_SHORT).show();
                 else {
                     Boolean checkUserPass = DB.checkUsernamePassword(user,pass);
                     if (checkUserPass==true){
@@ -57,7 +57,6 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(ProfileActivity.this, SignUpActivity.class);
                 startActivity(i);
-                finish();
             }
         });
     }

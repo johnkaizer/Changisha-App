@@ -10,4 +10,4 @@
 ## Splashscreen
 <img src="images/splash.png" width="200" > <img src="images/home.png" width="200" >
 <img src="images/donationitem.png" width="200" ><img src="images/login.png" width="200" >
-<img src="images/signup.png" width="200" ><img src="images/profile.png" width="2O0" >
+<img src="images/signup.png" width="200" > <img src="images/profile.png" width="200" >

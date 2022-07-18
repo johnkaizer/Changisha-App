@@ -6,7 +6,7 @@
 ## SQLITE
 ## FIREBASE
 
-# Screenshots of the progress
+# SCREENSHOTS OF THE PROGRESS SO FAR
 ## Splashscreen
 <img src="images/splash.png" width="170" > <img src="images/home.png" width="170" >
 <img src="images/donationitem.png" width="170" ><img src="images/login.png" width="170" >

@@ -1,10 +1,10 @@
 # Changisha-App
 # STILL UNDER DEVELOPEMTNT.
-## Changisha App is an android application that will enable users create donation request and post them to activate crowd funding from willing contributors, the application is still under development.
+### Changisha App is an android application that will enable users create donation request and post them to activate crowd funding from willing contributors, the application is still under development.
 # PROJECT'S TECH STACK
-## JAVA
-## SQLITE
-## FIREBASE
+JAVA
+SQLITE
+FIREBASE
 
 # SCREENSHOTS OF THE PROGRESS SO FAR
 ## Splashscreen

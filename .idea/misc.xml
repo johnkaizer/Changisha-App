@@ -15,7 +15,7 @@
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/drawable/searchbackground.xml" value="0.2045" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_account.xml" value="0.18" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_details.xml" value="0.25" />
-        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_notifications_activty.xml" value="0.33" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_profile.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/activity_sign_up.xml" value="0.1956521739130435" />
@@ -24,6 +24,7 @@
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/fragment_fragment2.xml" value="0.15081521739130435" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/fragment_fragment3.xml" value="0.15081521739130435" />
         <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/popula_donation_row_item.xml" value="0.1" />
+        <entry key="..\:/Users/kayza/AndroidStudioProjects/ChangishaApp/app/src/main/res/layout/popular_donation_row_item.xml" value="0.15081521739130435" />
       </map>
     </option>
   </component>

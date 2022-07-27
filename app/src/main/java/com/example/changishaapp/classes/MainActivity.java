@@ -45,9 +45,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
         List<PopularDonation> popularDonationList= new ArrayList<>();
         popularDonationList.add(new PopularDonation("GOODWILL ORGANIZATION ","KSh 800,000","build shelter and provide a good place for the aged in the kabete area.",R.drawable.donat,"50%","Social",1234567892));
         popularDonationList.add(new PopularDonation("OPENING MINDS DONATIONS","KSh 100,000","Pay fees for kids who are not able.",R.drawable.doo,"70%","Education",1234567892));

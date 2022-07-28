@@ -26,3 +26,11 @@ n
 >app/src/main/java/com/example/changishaapp/model/DBHelper.java,3\e\3ea55cc5bc4ac1893e2f06398f69258b8f3c2d97
 v
 Fapp/src/main/java/com/example/changishaapp/classes/SignUpActivity.java,6\d\6d0a9a80425bc32cd67a25c0dfb8317a352c6fe2
+w
+Gapp/src/main/java/com/example/changishaapp/classes/ProfileActivity.java,e\d\ed26cc40589e890d8cb7526e5f08ef6ed097d701
+x
+Happ/src/main/java/com/example/changishaapp/Adapter/ViewPagerAdapter.java,e\6\e66788ee1150bd5614d4673034b45c67ff9f8dcf
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164

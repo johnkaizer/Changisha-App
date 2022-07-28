@@ -1,0 +1,21 @@
+
+>
+java:S1604!"(Make this anonymous inner class a lambda(©º¬
+C
+java:S1604C"(Make this anonymous inner class a lambda(ç¯€ùÿÿÿÿ
+@
+java:S5411-"*Use the primitive boolean expression here.(‰×Ğû
+@
+java:S5411/"*Use the primitive boolean expression here.(˜¿¬‚
+p	java:S116"VRename this field "re_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ÷²óúÿÿÿÿ
+g	java:S116"MRename this field "DB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×„Ãµÿÿÿÿÿ
+?
+java:S1659"$Declare "signup" on a separate line.(–ºúÿÿÿÿ
+`
+java:S1659"EDeclare "password" and all following declarations on a separate line.(ÿ÷²óúÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¨Œşÿÿÿÿ
+=
+java:S1125-"'Remove the unnecessary boolean literal.(‰×Ğû
+=
+java:S1125/"'Remove the unnecessary boolean literal.(˜¿¬‚

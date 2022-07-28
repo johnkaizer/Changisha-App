@@ -54,7 +54,7 @@ public class PopularDonationsAdapter extends RecyclerView.Adapter<PopularDonatio
                 intent.putExtra("progress",popularDonationList.get(position).getProgress());
                 intent.putExtra("amount",popularDonationList.get(position).getAmount());
                 intent.putExtra("description",popularDonationList.get(position).getDescription());
-                intent.putExtra("account",popularDonationList.get(position).getAccount());
+                intent.putExtra("account",popularDonationList.get(position).getDuration());
                 intent.putExtra("category",popularDonationList.get(position).getCategory());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);

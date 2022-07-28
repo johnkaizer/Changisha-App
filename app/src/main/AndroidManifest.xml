@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.changishaapp" >
+    package="com.example.changishaapp">
 
     <application
         android:allowBackup="true"
@@ -12,18 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChangishaApp"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".classes.EducationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classes.OthersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classes.EnviromentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classes.HealthActivity"
+            android:exported="false" />
         <activity
             android:name=".classes.AccountActivity"
             android:exported="false" />
         <activity
             android:name=".classes.SignUpActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".classes.ProfileActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".classes.NotificationsActivty"
             android:exported="false" />
@@ -35,7 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".classes.Splash"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

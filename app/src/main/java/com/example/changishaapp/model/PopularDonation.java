@@ -7,16 +7,16 @@ public class PopularDonation {
     Integer ImageUrl;
     String Progress;
     String Category;
-    float Account;
+    String Duration;
 
-    public PopularDonation(String title, String amount, String description, Integer imageUrl, String progress, String category, float account) {
+    public PopularDonation(String title, String amount, String description, Integer imageUrl, String progress, String category, String duration) {
         Title = title;
         Amount = amount;
         Description = description;
         ImageUrl = imageUrl;
         Progress = progress;
         Category = category;
-        Account = account;
+        Duration = duration;
     }
 
     public String getTitle() {
@@ -67,11 +67,11 @@ public class PopularDonation {
         Category = category;
     }
 
-    public float getAccount() {
-        return Account;
+    public String getDuration() {
+        return Duration;
     }
 
-    public void setAccount(Integer account) {
-        Account = account;
+    public void setDuration(String duration) {
+        Duration = duration;
     }
 }

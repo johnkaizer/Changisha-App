@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418511460141",
+    "project_id": "changisha-app",
+    "storage_bucket": "changisha-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418511460141:android:b0352be430df782a0e25a4",
+        "android_client_info": {
+          "package_name": "com.example.changishaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418511460141-k0i6va0vpbmnjrj9rerihochq13o2ubb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxjz10TxfSzWlsu9ZBaci8BLp86URr9yE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418511460141-k0i6va0vpbmnjrj9rerihochq13o2ubb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

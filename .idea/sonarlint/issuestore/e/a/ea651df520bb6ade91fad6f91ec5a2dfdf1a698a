@@ -1,11 +1,0 @@
-
-n
-java:S1450"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤×ä
-s
-java:S1450"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ
-Y
-java:S1117"DRename "viewPagerAdapter" which hides the field declared at line 17.( ıí=
-Q
-java:S1874"<Remove this use of "FragmentPagerAdapter"; it is deprecated.( ıí=
-J
-java:S1068"4Remove this unused "viewPagerAdapter" private field.(¬í—Ô

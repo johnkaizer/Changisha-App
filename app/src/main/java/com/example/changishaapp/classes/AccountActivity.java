@@ -7,6 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 import com.example.changishaapp.Adapter.ViewPagerAdapter;
+import com.example.changishaapp.Fragment4;
 import com.example.changishaapp.R;
 import com.example.changishaapp.fragment1;
 import com.example.changishaapp.fragment2;
@@ -29,6 +30,7 @@ public class AccountActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
         ViewPagerAdapter viewPagerAdapter= new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         viewPagerAdapter.add(new fragment1(), "DONATION");
+        viewPagerAdapter.add(new Fragment4(), "WITHDRAW");
         viewPagerAdapter.add(new fragment2(), "HISTORY");
         viewPagerAdapter.add(new fragment3(), "SETTINGS");
         viewPager.setAdapter(viewPagerAdapter);

@@ -8,6 +8,7 @@ public class PopularDonation {
     String Progress;
     String Category;
     String Duration;
+    String Id;
 
     public PopularDonation(String title, String amount, String description, Integer imageUrl, String progress, String category, String duration) {
         Title = title;
